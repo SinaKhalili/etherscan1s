@@ -21,6 +21,7 @@ URL = "https://api.etherscan.io/api"
 
 @app.route("/")
 def index():
+    print("hello")
     return app.send_static_file("index.html")
 
 
